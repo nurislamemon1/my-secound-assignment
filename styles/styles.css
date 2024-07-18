@@ -86,13 +86,13 @@ border-radius: 42px;
 padding: 16px 40px;
 }
 
-.logo{
-   
+.image-content img{
+    width: 349px;
+height: 350px;
 }
 .image-content{
     position: relative;
-    margin-top: 50px;
-   
+
 }
 .card-1{
     width: max-content;
@@ -100,8 +100,9 @@ padding: 16px 40px;
     font-size: 15px;
     border-radius: 10px;
     position: absolute;
-    margin-bottom: 50px;
-    
+    margin-bottom: 100px;
+    bottom: 8px;
+    right: 480px;
 background: rgb(185, 185, 185);
 color: rgba(239, 237, 232, 0.65);
 }
@@ -169,4 +170,36 @@ color: rgba(239, 237, 232, 0.65);
 }
 .box-4 p{
     font-size: 8px;
+}
+
+.run-section-container{
+    display: flex;
+    width: 1060px;
+    height: 351px;
+    border-radius: 18px;
+background: rgb(34, 34, 34);
+    
+}
+
+.run-section-content{
+    width: 443px;
+    height: 290px;
+}
+.run-section-content h3{
+    font-size: 32px;
+font-weight: 900;
+margin-top: 30px;
+}
+.run-section-content p{
+    font-size: 8px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.image-section img{
+    width: 350px;
+height: 300px;
+border-radius: 15px;
+margin: 20px 20px;
+
 }
