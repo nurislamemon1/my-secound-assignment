@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+    
+
+}
+
+/* default styles */
+*{
+    margin: 0 auto;
+}
+.container{
+   width: 90%;
+   margin: 5rem auto;
+   
+}
+.span{
+    border-radius: 36px;
+    background: rgb(230, 83, 60);
+    padding: 12px 30px;
+}
+/* navbar styles starts here */
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-title{
+color: rgb(230, 83, 60);
+font-size: 2.25rem;
+font-weight: 800;
+}
+
+.nav-option{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    align-items: center;
+}
+
+/* banner */
+.banner{
+
+width: 1000px;
+height: 500px;
+display: flex;
+
+
+}
+.banner-title h3{
+    
+font-size: 3rem;
+font-weight: 700;
+text-align: left;
+}
+.font{
+    font-family: "Dancing Script", cursive;
+   
+}
+.banner-title p{
+    font-size: 12px;
+font-weight: 400;
+}
+
+.btn-primary{
+     gap: 1rem;
+    margin-top: 20px;
+}
+.first-btn{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    border: none;
+}
+.second-btn{
+    box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+padding: 16px 40px;
+}
+
+.logo{
+   
+}
+.image-content{
+    position: relative;
+    margin-top: 50px;
+   
+}
+.card-1{
+    width: max-content;
+    padding: 8px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    position: absolute;
+    margin-bottom: 50px;
+    
+background: rgb(185, 185, 185);
+color: rgba(239, 237, 232, 0.65);
+}
