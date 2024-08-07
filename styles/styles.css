@@ -359,3 +359,75 @@ color: #2b2b2b;
     gap: 10px;
     margin-top: 10px;
 }
+
+
+.footer-section-container{
+    width: 1060px;
+    height: 380px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-section{
+    display: flex;
+}
+
+.first-content{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.first-content h2{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.first-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.secound-content{
+     margin-top: 40px;
+     margin-left: 60px;
+}
+.secound-content h4 {
+  font-size: 24px;
+font-weight: 700;
+
+}
+.secound-content p{
+     font-size: 14px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
+margin: 20px 0px;
+}
+
+.third-content{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.third-content h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.third-content p{
+    font-size: 14px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
+margin: 20px 0px;
+}
+
+.footer-content hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin-top: 50px;
+}
+
+.footer-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 20%;
+}
