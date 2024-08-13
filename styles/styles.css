@@ -45,6 +45,7 @@ font-weight: 800;
     align-items: center;
 }
 
+
 /* banner */
 .banner{
 
@@ -430,4 +431,146 @@ margin: 20px 0px;
     font-weight: 400;
     margin-top: 20px;
     width: 20%;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 576px) {
+    .nav-option{
+        display: none;
+    }
+    .nav-title h3{
+         margin-right: 100px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-title h3{
+        font-size: 3rem;
+        margin-right: 550px;
+        
+    }
+    .banner-title p{
+        font-size: 8px;
+    }
+    .image-content img{
+        margin-top: 10px;
+        margin-right: 550px;
+    }
+    
+    .teams{
+        margin-top: 200px;
+        
+    }
+    .your-habits{
+        margin-right: 550px;
+    }
+
+.your-habits p{
+    font-size: 8px;
+}
+.teams-image-container{
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 550px;
+}
+.run-section-container{
+    margin-top: 440px;
+    flex-direction: column;
+    /* margin-bottom: 200px; */
+    height: 450px;
+}
+.run-section-content h3{
+    font-size: 24px;
+}
+.first-btn{
+    border-radius: 30px;
+    padding: 12px, 30px;
+}
+.run-section-content{
+    margin-right: 550px;
+}
+.image-section{
+    margin-right: 600px;
+}
+.image-section img{
+    width: 250px;
+    height: 200px;
+    margin-right: 100px;
+}
+.BMI{
+    margin-left: 50px;
+}
+
+.BMI h2 {
+    font-size: 30px;
+}
+.BMI p{
+    font-size: 8px;
+}
+.calculate-section-container{
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: 500px;
+}
+.calculate-section{
+    margin-right: 700px;
+}
+.calculate-section h3{
+    margin-top: 5px;
+}
+table{
+    margin-top: 5px;
+}
+th, td{
+    font-size: 8px;
+}
+
+.calculate-BMI{
+    margin-right: 550px;
+    
+}
+.calculate-BMI h3{
+    margin-top: 5px;
+}
+.team-content{
+    margin-right: 550px;
+}
+.row-1{
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 20px;
+    margin-right: 550px;
+}
+.row-2{
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 550px;
+    
+}
+.footer-section{
+    flex-direction: column;
+
+}
+.footer-section-container{
+    margin-top: 1050px;
+    height: 550px;
+}
+.first-content{
+    margin-top: 5px;
+}
+.secound-content{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.third-content{
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.footer-content hr{
+    margin-top: 5px;
+    width: 30%;
+    margin-right: 650px;
+}
+.footer-content p{
+    margin-right: 700px;
+}
+
 }
