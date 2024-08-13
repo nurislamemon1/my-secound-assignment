@@ -442,6 +442,9 @@ margin: 20px 0px;
     .nav-title h3{
          margin-right: 100px;
     }
+    .card-1{
+        display: none;
+    }
     .banner{
         flex-direction: column;
     }
